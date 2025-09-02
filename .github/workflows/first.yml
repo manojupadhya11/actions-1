@@ -8,8 +8,8 @@ jobs:
     steps:
     - name: welcome
       run: echo "Welcome"
-          
-          
+    - name: create file
+      run: touch new.txt          
     - name: list files
       run: ls
     - name: read file
